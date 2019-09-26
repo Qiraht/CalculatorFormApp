@@ -42,7 +42,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(36, 100);
+            this.button1.Location = new System.Drawing.Point(18, 77);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -53,7 +53,7 @@
             // text1
             // 
             this.text1.AutoSize = true;
-            this.text1.Location = new System.Drawing.Point(32, 18);
+            this.text1.Location = new System.Drawing.Point(24, 15);
             this.text1.Name = "text1";
             this.text1.Size = new System.Drawing.Size(37, 13);
             this.text1.TabIndex = 1;
@@ -63,7 +63,7 @@
             // textb
             // 
             this.textb.AutoSize = true;
-            this.textb.Location = new System.Drawing.Point(32, 45);
+            this.textb.Location = new System.Drawing.Point(24, 48);
             this.textb.Name = "textb";
             this.textb.Size = new System.Drawing.Size(37, 13);
             this.textb.TabIndex = 2;
@@ -71,22 +71,23 @@
             // 
             // txtNilaiA
             // 
-            this.txtNilaiA.Location = new System.Drawing.Point(104, 14);
+            this.txtNilaiA.Location = new System.Drawing.Point(81, 12);
             this.txtNilaiA.Name = "txtNilaiA";
             this.txtNilaiA.Size = new System.Drawing.Size(100, 20);
             this.txtNilaiA.TabIndex = 3;
             // 
             // txtNilaiB
             // 
-            this.txtNilaiB.Location = new System.Drawing.Point(104, 51);
+            this.txtNilaiB.Location = new System.Drawing.Point(81, 45);
             this.txtNilaiB.Name = "txtNilaiB";
             this.txtNilaiB.Size = new System.Drawing.Size(100, 20);
             this.txtNilaiB.TabIndex = 4;
+            this.txtNilaiB.TextChanged += new System.EventHandler(this.txtNilaiB_TextChanged);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.lstHasil);
-            this.groupBox1.Location = new System.Drawing.Point(36, 139);
+            this.groupBox1.Location = new System.Drawing.Point(12, 106);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(258, 138);
             this.groupBox1.TabIndex = 5;
@@ -105,7 +106,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(293, 305);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtNilaiB);
             this.Controls.Add(this.txtNilaiA);
